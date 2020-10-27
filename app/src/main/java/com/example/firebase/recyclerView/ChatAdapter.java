@@ -25,6 +25,7 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatViewHolder> {
         this.mensagens = mensagens;
         this.context = context;
     }
+
     @NonNull
     @Override
     public ChatViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType){
