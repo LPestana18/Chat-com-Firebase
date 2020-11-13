@@ -3,6 +3,7 @@ package com.example.firebase;
 import java.util.Date;
 
 public class Mensagem implements Comparable<Mensagem> {
+
     private String usuario;
     private Date data;
     private String texto;
